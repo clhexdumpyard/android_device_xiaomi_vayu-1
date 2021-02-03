@@ -287,6 +287,11 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper-prd.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
+    libprotobuf-cpp-full \
+    extphonelib \
+    extphonelib-product \
+    extphonelib.xml \
+    extphonelib_product.xml \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
@@ -445,6 +450,10 @@ PRODUCT_PACKAGES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
+
+# Telephony
+PRODUCT_PACKAGES += \
+    TelephonyResVayu
 
 # NFC
 PRODUCT_PACKAGES += \
