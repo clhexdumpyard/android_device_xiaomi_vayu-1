@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<injection package="com.qualcomm.qti.internal.telephony.QtiTelephonyComponentFactory"
-           jar="/system_ext/framework/extphonelib.jar">
-    <components>
-    </components>
-</injection>
