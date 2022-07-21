@@ -313,6 +313,7 @@ PRODUCT_PACKAGES += \
    SettingsOverlayVayu \
    SettingsProviderOverlayVayu \
    SystemUIOverlayVayu \
+   TelephonyResVayu \
    TelephonyOverlayVayu \
    TetheringConfigOverlayVayu \
    WifiOverlayVayu
@@ -391,10 +392,6 @@ PRODUCT_PACKAGES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
-
-# Telephony
-PRODUCT_PACKAGES += \
-    TelephonyResVayu
 
 # NFC
 PRODUCT_PACKAGES += \
